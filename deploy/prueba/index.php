@@ -38,7 +38,7 @@ if ( $webhook != "" ) {
 		}
 
 		// Comandos a ejecutar
-		$ssh->exec('mkdir pepe_master');
+		$ssh->exec('cd prueba.contactenosya.com && git pull');
 
 	}
 
@@ -56,7 +56,7 @@ if ( $webhook != "" ) {
 		}
 
 		// Comandos a ejecutar
-		$ssh->exec('mkdir pepe_develop');
+		$ssh->exec('cd subdominios/prueba.asiquedo.com && git pull');
 	}
 
 }
