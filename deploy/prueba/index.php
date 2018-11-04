@@ -56,7 +56,7 @@ if ( $webhook != "" ) {
 		}
 
 		// Comandos a ejecutar
-		$ssh->exec('cd subdominios/prueba.asiquedo.com && git pull');
+		$ssh->exec('cd subdominios && cd prueba.asiquedo.com && git pull');
 	}
 
 }
